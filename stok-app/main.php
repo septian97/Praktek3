@@ -37,7 +37,8 @@
             echo "<tr>";
             echo "<td>" . $row["kode"] . "</td>";
             echo "<td>" . $row["nama_barang"] . "</td>"; 
-            echo "<td>" . $row["stok"] . "</td>"; 
+            echo "<td>" . $row["stok"] . "</td>";
+            echo '<td><a href=" form-edit.php?kode=' . $row["kode"] . '">Edit</a></td>';
             echo "</tr>";
        }
 
