@@ -20,7 +20,10 @@ if($koneksi->query($query)===true){
     echo "<br>Data ". $nama .' berhasil diupdate';
 } else{
     echo "<br> Data gagal diupdate";
+    
 }
 echo "<br>";
 echo "<a href='main.php'>Kembali ke Halaman Utama</a>";
+
+
 ?>
